@@ -12,6 +12,7 @@ export default function HomePage() {
           <div className="aspect-video w-full bg-slate-100">
             <video
               src="/api/video"
+              poster="https://drive.google.com/thumbnail?id=12S9lMxww4VVE4welFqDN01xeLQTRrIqy&sz=w1600"
               title="Video de la Facultad de Ingeniería Eléctrica"
               className="h-full w-full object-contain"
               controls
