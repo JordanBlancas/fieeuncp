@@ -17,6 +17,7 @@ export default function HomePage() {
               className="h-full w-full object-contain"
               controls
               controlsList="nodownload noplaybackrate"
+              preload="auto"
               playsInline
             />
           </div>
