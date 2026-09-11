@@ -10,12 +10,13 @@ export default function HomePage() {
         <p className="mt-5 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg">Explora los espacios de formación, investigación e innovación de la Facultad de Ingeniería Eléctrica.</p>
         <div className="mt-10 w-full max-w-5xl overflow-hidden rounded-3xl border border-[var(--border)] bg-white shadow-xl">
           <div className="aspect-video w-full bg-slate-100">
-            <iframe
-              src="https://drive.google.com/file/d/12S9lMxww4VVE4welFqDN01xeLQTRrIqy/preview"
+            <video
+              src="https://drive.google.com/uc?export=download&id=12S9lMxww4VVE4welFqDN01xeLQTRrIqy"
               title="Video de la Facultad de Ingeniería Eléctrica"
-              className="h-full w-full"
-              allow="autoplay"
-              allowFullScreen
+              className="h-full w-full object-contain"
+              controls
+              controlsList="nodownload noplaybackrate"
+              playsInline
             />
           </div>
         </div>
