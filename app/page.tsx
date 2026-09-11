@@ -11,7 +11,7 @@ export default function HomePage() {
         <div className="mt-10 w-full max-w-5xl overflow-hidden rounded-3xl border border-[var(--border)] bg-white shadow-xl">
           <div className="aspect-video w-full bg-slate-100">
             <video
-              src="https://drive.google.com/uc?export=download&id=12S9lMxww4VVE4welFqDN01xeLQTRrIqy"
+              src="/api/video"
               title="Video de la Facultad de Ingeniería Eléctrica"
               className="h-full w-full object-contain"
               controls
